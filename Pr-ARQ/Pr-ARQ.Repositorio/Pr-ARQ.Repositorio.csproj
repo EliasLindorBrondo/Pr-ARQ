@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Pr_ARQ.Repositorio</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pr-ARQ.BD\Pr-ARQ.BD.csproj" />
+    <ProjectReference Include="..\Shared\Pr-ARQ.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
